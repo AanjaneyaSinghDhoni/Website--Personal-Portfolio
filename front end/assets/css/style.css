@@ -17,9 +17,9 @@ Text Domain: darkjoe
 * 01.0 - Universal
 * 02.0 - Header
 * 03.0 - Navigation
-* 04.0 - Services
-* 05.0 - Portfolio
-* 06.0 - Testimonial
+* 04.0 - abouts me
+* 05.0 - Skills
+* 06.0 - mywork / projects
 * 07.0 - Contact
 * 08.0 - Footer
 * 09.0 - Responsive Fixes
@@ -207,7 +207,41 @@ header{
 
 
 /* ///////////////////////////////////////////////////////////////////// 
-//  04 - Services
+//  04 - About me
+/////////////////////////////////////////////////////////////////////*/
+
+#testimonial {
+    background: url(../images/parallax.jpg);
+    padding: 80px 0px 80px 0px;
+    color: #fff;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.testimonila-block {
+    text-align: center;
+}
+.testimonila-block img {
+    border-radius: 50%;
+    border: 1px solid #000;
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 30px;
+}
+.testimonila-block p {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 18px;
+}
+.testimonila-block strong {
+    font-size: 2em;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////// 
+//  05- Skills
 /////////////////////////////////////////////////////////////////////*/
 
 
@@ -251,7 +285,7 @@ header{
 
 
 /* ///////////////////////////////////////////////////////////////////// 
-//  05 - Portfolio
+//  06 -Mywork/projects
 /////////////////////////////////////////////////////////////////////*/
 
 
@@ -385,38 +419,6 @@ header{
     margin-bottom: 30px;
 }
 
-/* ///////////////////////////////////////////////////////////////////// 
-//  06 - Testimonial 
-/////////////////////////////////////////////////////////////////////*/
-
-#testimonial {
-    background: url(../images/parallax.jpg);
-    padding: 80px 0px 80px 0px;
-    color: #fff;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.testimonila-block {
-    text-align: center;
-}
-.testimonila-block img {
-    border-radius: 50%;
-    border: 1px solid #000;
-    max-width: 200px;
-    max-height: 200px;
-    margin-bottom: 30px;
-}
-.testimonila-block p {
-    max-width: 60%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    font-style: italic;
-    font-size: 18px;
-}
-.testimonila-block strong {
-    font-size: 2em;
-}
 
 
 /* ///////////////////////////////////////////////////////////////////// 
